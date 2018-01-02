@@ -19,7 +19,7 @@ module.exports = function() {
   }
 
   var signupBonus = 250,
-    deposit = 1000
+  var deposit = 1000
 
   var openAccount = function(account, deposit) {
     account.balance += signupBonus
