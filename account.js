@@ -13,6 +13,7 @@ module.exports = function() {
       debugger
       customerAccount.type = 'checking'
     } else {
+      debugger
       customerAccount.type = 'savings'
     }
   }
