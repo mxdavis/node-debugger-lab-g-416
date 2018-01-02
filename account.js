@@ -10,6 +10,7 @@ module.exports = function() {
 
   function setAccountType () {
     if (customerAccount.checking === 1) {
+      debugger
       customerAccount.type = 'checking'
     } else {
       customerAccount.type = 'savings'
